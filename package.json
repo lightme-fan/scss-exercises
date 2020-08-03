@@ -2,7 +2,9 @@
   "name": "scss-exercises",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "scss": "node-sass scss -o css"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/onja-org/scss-exercises.git"
