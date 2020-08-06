@@ -4489,3 +4489,15 @@ a.text-dark:hover, a.text-dark:focus {
 
 .invisible {
   visibility: hidden !important; }
+
+.panel-pd {
+  padding: 2rem; }
+
+.panel-mb {
+  margin-bottom: 1rem; }
+
+.bg-black {
+  background-color: #000; }
+
+.bg-red {
+  background-color: #dc3545; }

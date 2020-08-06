@@ -61,7 +61,8 @@ $colors: map-merge(
     "cyan":       $cyan,
     "white":      $white,
     "gray":       $gray-600,
-    "gray-dark":  $gray-800
+    "gray-dark":  $gray-800,
+    "black":      $black
   ),
   $colors
 );
@@ -1145,3 +1146,7 @@ $user-selects: all, auto, none !default;
 
 $print-page-size:                   a3 !default;
 $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
+
+// Panel padding
+$panel-pd: 2rem !default;
+$panel-mb: 1rem !default;
